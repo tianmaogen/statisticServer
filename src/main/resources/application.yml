@@ -1,0 +1,6 @@
+spring:
+  profiles:
+    active: rc
+server:
+  port: 4092
+# http://139.129.192.160:18080/REST/pulpitservice/jsonp

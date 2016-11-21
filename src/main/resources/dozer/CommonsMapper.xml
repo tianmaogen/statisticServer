@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappings xmlns="http://dozer.sourceforge.net"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://dozer.sourceforge.net
+          http://dozer.sourceforge.net/schema/beanmapping.xsd">
+    <configuration>
+        <map-null>false</map-null>
+        <map-empty-string>false</map-empty-string>
+        <!--<custom-converters> &lt;!&ndash; these are always bi-directional &ndash;&gt;-->
+            <!--<converter type="cn.ibabygroup.pros.dvoice.biz.model.enumType.converter.ContentTypeConverter">-->
+                <!--<class-a>cn.ibabygroup.pros.dvoice.constant.ContentType</class-a>-->
+                <!--<class-b>java.lang.Integer</class-b>-->
+            <!--</converter>-->
+            <!--<converter type="cn.ibabygroup.pros.dvoice.biz.model.enumType.converter.NoticeTypeConverter">-->
+                <!--<class-a>cn.ibabygroup.pros.dvoice.constant.NoticeType</class-a>-->
+                <!--<class-b>java.lang.Integer</class-b>-->
+            <!--</converter>-->
+        <!--</custom-converters>-->
+    </configuration>
+</mappings>

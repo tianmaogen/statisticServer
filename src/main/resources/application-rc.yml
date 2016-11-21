@@ -1,0 +1,18 @@
+spring:
+  data:
+#    mongodb:
+#      host: 10.164.12.73
+#      port: 37017
+#      database: cms
+    mongodb:
+      host: 114.215.158.219
+      port: 37017
+      database: cms
+ibabygroup:
+  rest:
+    token: 2RRO7i13GqNryj3b
+    count: http://api.ibabygroup.cn/REST/pulpitservice/userList
+    detail: http://api.ibabygroup.cn/pulpitServer/pulpitMember/searchTodayPulpitBg
+    isOpen: true
+  imService:
+    host: http://api.ibabygroup.cn

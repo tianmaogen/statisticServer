@@ -1,0 +1,14 @@
+spring:
+  data:
+    mongodb:
+      host: 10.45.237.58
+      port: 27017
+      database: cms
+ibabygroup:
+  rest:
+    token: 2RRO7i13GqNryj3b
+    count: http://10.45.237.58:8080/REST/pulpitservice/userList
+    detail: http://10.45.237.58:8080/pulpitServer/pulpitMember/searchTodayAllPulpitBg
+    isOpen: false
+  imService:
+    host: 10.144.45.27:9696
